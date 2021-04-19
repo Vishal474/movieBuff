@@ -11,6 +11,7 @@
 
 ## RUNNING THE APPLICATION
 
+cd movieBuff
 npm install && npm start
 
 ## NOTE : If Cors error is encountered kindly install extension Cross-Domain CORS to overcome this error.
