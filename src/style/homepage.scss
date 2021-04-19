@@ -1,0 +1,119 @@
+body{
+    font-family: sans-serif;
+}
+
+.Application-container{
+    background-color :#1b1a17;
+    font-family: sans-serif;
+    font-size: small;
+    
+    .grid-movies-container{
+        cursor:pointer;
+        
+        .grid-image{
+            width: 175px;
+            height: 195px
+        }
+
+        .grid-movie-rating{
+            color: goldenrod;
+            font-weight: 700;
+            float: left;
+            margin: 0px 5px;
+        }
+
+        .grid-movie-date{
+            float: left;
+            margin-left: 35px;
+        }
+
+        .grid-movie-name{
+            display: flex;
+            width: 100%;
+            margin: 0px 12px;
+            font-weight: 700;
+        }
+
+        .grid-movie-genres{
+            display: flex;
+            width: 100%;
+            position: relative;
+            right: -13px;
+            margin: 7px 0px 7px 0px;
+        }
+    }
+
+    .grid-movies-container:hover{
+        box-shadow: 1px 2px 8px #ff8303;
+    }
+
+}
+
+.movieListPagination{
+
+    padding:10px 0 25px 0;
+
+    .material-icons{
+        color:white;
+    }
+    
+    .pageNum{
+        color:white;
+    }
+}
+
+
+.detail-movies-container{
+    margin:24px 0px;
+
+    .detail-image{
+        width: 100%;
+        height: 400px
+    }
+
+    .detail-movie-rating{
+        color: goldenrod;
+        font-weight: 700;
+        float: left;
+        margin: 0px 5px;
+    }
+
+    .detail-movie-date{
+        float: left;
+        margin-left: 35px;
+    }
+
+    .detail-movie-name{
+        display: flex;
+        width: 100%;
+        margin: 0px 10px;
+        font-weight: 700;
+        font-size: 25px;
+    }
+
+    .detail-movie-description{
+        margin:5px 10px ;
+    }
+
+    .detail-movie-genres{
+        display: flex;
+        width: 100%;
+        position: relative;
+        right: -10px;
+        font-weight: 600;
+        margin: 7px 0px 7px 0px;
+        padding-bottom: 10px;
+    }
+
+}
+
+.close-image{
+    float: right;
+    top: -12px;
+    right: -4px;
+    padding: 0px !important;
+}
+
+.material-icons{
+    color:white;
+}
